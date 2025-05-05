@@ -16,7 +16,7 @@ Start the MonboDB server and run the app:
 
 ## Usage
 Test the API in Insomnia using the following routes:
-  👤 Users
+###  👤 Users
 GET /api/users – Get all users
 
 GET /api/users/:userId – Get a single user (with thoughts and friends)
@@ -32,7 +32,7 @@ POST /api/users/:userId/friends/:friendId – Add a friend
 DELETE /api/users/:userId/friends/:friendId – Remove a friend
 
 
-💭 Thoughts
+### 💭 Thoughts
 GET /api/thoughts – Get all thoughts
 
 GET /api/thoughts/:thoughtId – Get a single thought
@@ -44,7 +44,7 @@ PUT /api/thoughts/:thoughtId – Update a thought
 DELETE /api/thoughts/:thoughtId – Delete a thought
 
 
-🔁 Reactions
+### 🔁 Reactions
 POST /api/thoughts/:thoughtId/reactions – Add a reaction to a thought
 
 DELETE /api/thoughts/:thoughtId/reactions/:reactionId – Remove a reaction
